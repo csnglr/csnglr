@@ -1,0 +1,41 @@
+
+<canvas id="line-chart" width="800" height="450"></canvas>
+<script>
+  new Chart(document.getElementById("line-chart"), {
+    type: 'line',
+    data: {
+      labels: [1992, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+      datasets: [
+
+      {% for college in site.data.acceptance_rates.entries %}
+      {
+        data: [{{ college.y1992 }},{{ college.y2003 }},{{ college.y2004 }},{{ college.y2005 }},{{ college.y2006 }},{{ college.y2007 }},{{ college.y2008 }},{{ college.y2009 }},{{ college.y2010 }},{{ college.y2011 }},{{ college.y2012 }},{{ college.y2013 }},{{ college.y2014 }},{{ college.y2015 }},{{ college.y2016 }},{{ college.y2017 }},{{ college.y2018 }},{{ college.y2019 }},{{ college.y2020 }},],
+        label: "{{college.College}}",
+          borderColor: "#{{college.color}}",
+          backgroundColor: "#000000",
+        fill: false
+
+      },
+      {% endfor %}
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Acceptance rates over time in %'
+      },
+      scales: {
+          xAxes: [
+            {
+              scaleLabel: {
+                display: true,
+                labelString: 'Data gathered from http://www.collegeresults.org/default.aspx',
+                fontSize: 11
+              }
+            }
+          ]
+      }
+    }
+  });
+
+</script>

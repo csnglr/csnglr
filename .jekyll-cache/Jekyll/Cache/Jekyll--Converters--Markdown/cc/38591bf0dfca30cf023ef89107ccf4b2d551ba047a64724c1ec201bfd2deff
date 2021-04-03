@@ -1,0 +1,164 @@
+I"œ<p>Another sample category page.</p>
+
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['Georgetown','Notre Dame','Yale','Duke','Northwestern','New York University',],
+        datasets: [{
+            label: '# of Votes',
+            data: [52,114,52,50,80,61,],
+            backgroundColor: [
+            
+            'rgba(255, 99, 132, 0.2)',
+            
+            'rgba(54, 162, 235, 0.2)',
+            
+            'rgba(255, 206, 86, 0.2)',
+            
+            'rgba(75, 192, 192, 0.2)',
+            
+            'rgba(153, 102, 255, 0.2)',
+            
+            'rgba(255, 159, 64, 0.2)',
+            
+            ],
+            borderColor: [
+            'rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1)','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)',
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+      legend: { display: false },
+      title: {
+          display: true,
+          text: 'Median SAT Point Difference from 2002 to 2017'
+        },
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }],
+            xAxes: [
+              {
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Data gathered from http://www.collegeresults.org/default.aspx',
+                  fontSize: 11
+                }
+              }
+            ]
+        }
+    }
+});
+</script>
+
+<canvas id="tuition-chart" width="800" height="450"></canvas>
+<script>
+  new Chart(document.getElementById("tuition-chart"), {
+    type: 'line',
+    data: {
+      labels: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+      datasets: [
+
+      
+      {
+        data: [42230.0,43758.0,45612.0,47434.0,49346.0,51366.0,53419.0,55466.0,58404.0,60696.0,],
+        label: "Brown",
+          borderColor: "#0",
+          backgroundColor: "#000000",
+        fill: false
+
+      },
+      
+      {
+        data: [45290.0,47246.0,49138.0,51008.0,53000.0,49973.0,51640.0,59430.0,61788.0,61671.0,],
+        label: "Columbia",
+          borderColor: "#f0f0f0",
+          backgroundColor: "#000000",
+        fill: false
+
+      },
+      
+      {
+        data: [41541.0,43413.0,45358.0,47286.0,49116.0,50953.0,52853.0,54818.0,56784.0,58586.0,],
+        label: "Cornell",
+          borderColor: "#d9d9d9",
+          backgroundColor: "#000000",
+        fill: false
+
+      },
+      
+      {
+        data: [42996.0,45042.0,46752.0,48108.0,49506.0,51438.0,52950.0,55453.0,57638.0,60117.0,],
+        label: "Dartmouth",
+          borderColor: "#bdbdbd",
+          backgroundColor: "#000000",
+        fill: false
+
+      },
+      
+      {
+        data: [34976.0,36305.0,37576.0,38891.0,40418.0,41632.0,43280.0,46340.0,47730.0,49653.0,],
+        label: "Harvard",
+          borderColor: "#969696",
+          backgroundColor: "#000000",
+        fill: false
+
+      },
+      
+      {
+        data: [37865.0,39537.0,40170.0,41820.0,43450.0,45300.0,47140.0,50340.0,52800.0,48502.0,],
+        label: "Princeton",
+          borderColor: "#737373",
+          backgroundColor: "#000000",
+        fill: false
+
+      },
+      
+      {
+        data: [42098.0,43738.0,45890.0,47668.0,49536.0,51464.0,53534.0,55584.0,57770.0,60042.0,],
+        label: "UPenn",
+          borderColor: "#525252",
+          backgroundColor: "#000000",
+        fill: false
+
+      },
+      
+      {
+        data: [40500.0,42300.0,44000.0,45800.0,47600.0,49480.0,51400.0,53430.0,55500.0,57700.0,],
+        label: "Yale",
+          borderColor: "#252525",
+          backgroundColor: "#000000",
+        fill: false
+
+      },
+      
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Acceptance rates over time in %'
+      },
+      scales: {
+          xAxes: [
+            {
+              scaleLabel: {
+                display: true,
+                labelString: 'Data gathered from http://www.collegeresults.org/default.aspx',
+                fontSize: 11
+              }
+            }
+          ]
+      }
+    }
+  });
+
+</script>
+
+:ET
