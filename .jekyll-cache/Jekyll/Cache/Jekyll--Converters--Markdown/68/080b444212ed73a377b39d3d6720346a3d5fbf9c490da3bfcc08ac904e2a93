@@ -1,4 +1,4 @@
-I"š?<h2 id="the-college-singularity">The College Singularity</h2>
+I"¤?<h2 id="the-college-singularity">The College Singularity</h2>
 
 <p>As time progresses, the college admissions process has become increasingly competitive and expensive. Acceptance rates have dropped exponentially (over 60% in some cases) and the level of accomplishments that are expected have risen. Both qualitative and quantitative evidence have pointed towards the existence of a college singularity: <strong>that if the current trend of increasing academic expectations, tuition, and other factors, there will exist a point where it will be impossible for non-affluent families to participate in the college admissions process for prestigious universities.</strong></p>
 
@@ -271,7 +271,7 @@ var myChart = new Chart(ctx, {
     options: {
       title: {
         display: true,
-        text: 'Acceptance rates over time in %'
+        text: 'Average College Tuition Since 2011 in USD'
       },
       scales: {
           xAxes: [
