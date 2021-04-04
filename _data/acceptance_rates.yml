@@ -42,7 +42,7 @@ entries:
     y2004: 12.80
     y2003: 12.00
     y1992: 28.00
-    color: add8e6
+    color: b9d9eb
 -
     College: Cornell
     y2020: 10.70
@@ -64,7 +64,7 @@ entries:
     y2004: 28.70
     y2003: 30.90
     y1992: 30.00
-    color: ff0000
+    color: b31b1b
 -
     College: Dartmouth
     y2020: 8.80
@@ -152,7 +152,7 @@ entries:
     y2004: 21.00
     y2003: 20.50
     y1992: 39.00
-    color: ee6c4d
+    color: 990000
 -
     College: Yale
     y2020: 6.50
