@@ -11,7 +11,7 @@ entries:
     y2013: 45612.00
     y2012: 43758.00
     y2011: 42230.00
-    color: 000000
+    color: 964B00
 
 -
     College: Columbia
@@ -25,7 +25,7 @@ entries:
     y2013: 49138.00
     y2012: 47246.00
     y2011: 45290.00
-    color: 14213d
+    color: b9d9eb
 
 -
     College: Cornell
@@ -39,7 +39,7 @@ entries:
     y2013: 45358.00
     y2012: 43413.00
     y2011: 41541.00
-    color: fca311
+    color: b31b1b
 
 -
     College: Dartmouth
@@ -53,7 +53,7 @@ entries:
     y2013: 46752.00
     y2012: 45042.00
     y2011: 42996.00
-    color: e5e5e5
+    color: 007500
 
 -
     College: Harvard
@@ -67,7 +67,7 @@ entries:
     y2013: 37576.00
     y2012: 36305.00
     y2011: 34976.00
-    color: e71d36
+    color: dc143c
 
 -
     College: Princeton
@@ -81,7 +81,7 @@ entries:
     y2013: 40170.00
     y2012: 39537.00
     y2011: 37865.00
-    color: f6bd60
+    color: e77500
 
 -
     College: UPenn
