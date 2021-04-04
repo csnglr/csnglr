@@ -20,7 +20,7 @@ entries:
     y2004: 15.80
     y2003: 14.90
     y1992: 23.00
-    color: 000000
+    color: 964B00
 -
     College: Columbia
     y2020: 6.10
@@ -42,7 +42,7 @@ entries:
     y2004: 12.80
     y2003: 12.00
     y1992: 28.00
-    color: f0f0f0
+    color: add8e6
 -
     College: Cornell
     y2020: 10.70
@@ -64,7 +64,7 @@ entries:
     y2004: 28.70
     y2003: 30.90
     y1992: 30.00
-    color: d9d9d9
+    color: ff0000
 -
     College: Dartmouth
     y2020: 8.80
@@ -86,7 +86,7 @@ entries:
     y2004: 18.30
     y2003: 17.70
     y1992: 26.00
-    color: bdbdbd
+    color: 007500
 -
     College: Harvard
     y2020: 4.90
@@ -108,7 +108,7 @@ entries:
     y2004: 10.30
     y2003: 9.80
     y1992: 16.00
-    color: 969696
+    color: dc143c
 -
     College: Princeton
     y2020: 5.60
@@ -130,7 +130,7 @@ entries:
     y2004: 11.90
     y2003: 10.00
     y1992: 16.00
-    color: 737373
+    color: e77500
 -
     College: UPenn
     y2020: 8.10
@@ -152,7 +152,7 @@ entries:
     y2004: 21.00
     y2003: 20.50
     y1992: 39.00
-    color: 525252
+    color: ee6c4d
 -
     College: Yale
     y2020: 6.50
@@ -174,4 +174,4 @@ entries:
     y2004: 9.90
     y2003: 11.40
     y1992: 22.00
-    color: 252525
+    color: 3d5a80
