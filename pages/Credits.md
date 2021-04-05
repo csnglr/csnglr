@@ -1,8 +1,4 @@
----
-layout: page
-title: Credits
-sidebar_link: true
----
+
 
 Main Developer & Designer - **Salvador Aleguas**
 
