@@ -1,5 +1,5 @@
 
-<canvas id="tuition-chart" width="800" height="450"></canvas>
+<canvas id="tuition-chart" width="100em" height="100em"></canvas>
 <script>
   new Chart(document.getElementById("tuition-chart"), {
     type: 'line',
@@ -7,7 +7,7 @@
       labels: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
       datasets: [
 
-      {% for college in site.data.tuition.entries %}
+      {% for college in site.data.tuitiony.entries %}
       {
         data: [{{ college.y2011 }},{{ college.y2012 }},{{ college.y2013 }},{{ college.y2014 }},{{ college.y2015 }},{{ college.y2016 }},{{ college.y2017 }},{{ college.y2018 }},{{ college.y2019 }},{{ college.y2020 }},],
         label: "{{college.College}}",
