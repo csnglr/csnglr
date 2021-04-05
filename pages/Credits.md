@@ -4,8 +4,8 @@ title: Credits
 sidebar_link: true
 ---
 
-# Credits
+Main Developer & Designer - **Salvador Aleguas**
 
-Main Developer/Designer - Salvador Aleguas
-Co-developer/Designer - William Chiang
-Co-Designer & Marketing - Sean Hernandez
+Co-Developer & Designer - **William Chiang**
+
+Co-Designer & Marketing - **Sean Hernandez**
